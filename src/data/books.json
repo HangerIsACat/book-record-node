@@ -1,0 +1,19 @@
+{
+  "books": [
+    {
+      "id": 1, 
+      "title": "Sample Book 1", 
+      "location": "sample_cabinet_1/sample_shelf_1/sample_folder_1"
+    }, 
+    {
+      "id": 2, 
+      "title": "Sample Book 2", 
+      "location": "sample_cabinet_1/sample_shelf_1/sample_folder_1"
+    }, 
+    {
+      "id": 3, 
+      "title": "Sample Book 3", 
+      "location": "sample_cabinet_1/sample_shelf_2/sample_folder_1"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+# dependency packages
+/node_modules
+
+# log files
+npm-debug.log*
+
