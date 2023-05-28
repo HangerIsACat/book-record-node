@@ -53,8 +53,6 @@ export class BooksDBloader {
   }
 
   update(bookUpdated) {
-    
-    console.log(bookUpdated);
 
     const bookForUpdating = this.get(bookUpdated.id);
 
