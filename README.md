@@ -1,5 +1,5 @@
 # Book Record REST APIs
-REST API for book record web application. Uses SQLite in-memory DB.
+REST API for book record web application. Uses SQLite in-memory DB. It can also use an impermanent JSON-based store.
 
 ---
 
@@ -19,6 +19,8 @@ REST API for book record web application. Uses SQLite in-memory DB.
 **Debug**: Please see .vscode/launch.json for config
 
 ---
+
+## Book Record APIs
 
 ### Get all book records
 **GET** [/books](http://localhost:3001/books)
@@ -47,6 +49,38 @@ REST API for book record web application. Uses SQLite in-memory DB.
 * _title_ - Book's title
 * _location_ - Book's location
 
+---
+
+## Location APIs
+
+### Get all locations
+**GET** [/locations](http://localhost:3001/locations)
+
+### Get location
+**GET** /location/{id}
+#### Required parameter
+* _id_ - ID of the location to view
+
+### Update location record
+**POST** /location/{id}
+#### Required parameter
+* _id_ - ID of the location to update
+#### Body parameters
+* _name_ - Location's updated name
+* _parentID_ - Parent location's ID
+
+### Delete location record
+**DELETE** /location/{id}
+#### Required parameter
+* _id_ - ID of the location to delete
+
+### Add new location record
+**POST** /location
+#### Body parameters
+* _name_ - Location's name
+* _parentID_ - Parent location's ID
+
+---
 
 _**Note**: Please see BookRecord_boomerang.json for more info on the endpoints._
 

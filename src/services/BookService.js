@@ -1,5 +1,4 @@
 
-// import { BooksJSONloader } from "../dao/BooksJSONloader.js";
 import { BooksDBloader } from "../dao/BooksDBloader.js";
 import { Message } from "../util/Message.js";
 import { Utility } from "../util/Utility.js";
@@ -19,7 +18,6 @@ export class BookService {
   }
 
   update(book) {
-
     if (Utility.checkEmpty(book)) {
       return Message.ERROR_BOOK_NULL;
     }
@@ -28,7 +26,6 @@ export class BookService {
   }
 
   delete(bookID) {
-
     if (Utility.checkEmpty(bookID)) {
       return Message.ERROR_BOOK_ID_NOT_EXIST;
     }
@@ -37,7 +34,6 @@ export class BookService {
   }
 
   add(book) {
-
     if (Utility.checkEmpty(book)) {
       return Message.ERROR_BOOK_NULL;
     }

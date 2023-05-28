@@ -17,7 +17,7 @@ export class BooksJSONloader {
   }
 
   get(bookID) {
-    let book = this.books.find(book => book.id == bookID);
+    const book = this.books.find(book => book.id == bookID);
 
     if (Utility.checkEmpty(book)) {
       throw new Error(Message.ERROR_BOOK_ID_NOT_EXIST);
@@ -47,7 +47,7 @@ export class BooksJSONloader {
       }
     });
 
-    return Message.SUCCESS
+    return Message.SUCCESS;
   }
 
   delete(bookID) {

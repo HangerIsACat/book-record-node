@@ -9,6 +9,7 @@ import booksJSON from "../data/books.json" assert {type: "json"};
 
 export class BooksDBloader {
 
+  // TODO: DB factory
   constructor() {
 
     this.db = new Database(":memory:", { verbose: console.log });

@@ -2,7 +2,7 @@
 export class Utility {
 
   static checkEmpty(obj) {
-    return null == obj || undefined == obj;
+    return typeof obj == "object" && null == obj;
   }
 
 }
