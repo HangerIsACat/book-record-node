@@ -1,5 +1,14 @@
 # Book Record REST APIs
-REST API for book record web application.
+REST API for book record web application. Uses SQLite in-memory DB.
+
+---
+
+### Requirements
+* [Node.js v18.16.0](https://nodejs.org/dist/v18.16.0/node-v18.16.0-linux-x64.tar.xz)
+* npm v9.5.1 (usually bundled with Node.js)
+* [Boomerang API](https://app.boomerangapi.com/) for testing (see Test section on how to setup).
+
+---
 
 ### Commands (Linux)
 
