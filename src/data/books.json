@@ -13,7 +13,17 @@
     {
       "id": 3, 
       "title": "Sample Book 3", 
-      "location": "sample_cabinet_1/sample_shelf_2/sample_folder_1"
+      "location": "sample_cabinet_1/sample_shelf_1/sample_folder_1"
+    }, 
+    {
+      "id": 6, 
+      "title": "Sample Book 6", 
+      "location": "sample_cabinet_1"
+    }, 
+    {
+      "id": 7, 
+      "title": "Sample Book 7", 
+      "location": "sample_cabinet_1/sample_shelf_1"
     }
   ]
 }

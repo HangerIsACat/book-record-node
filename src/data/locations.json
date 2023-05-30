@@ -12,18 +12,8 @@
     }, 
     {
       "id": 3, 
-      "name": "sample_shelf_2", 
-      "parentID": 1
-    }, 
-    {
-      "id": 4, 
       "name": "sample_folder_1", 
       "parentID": 2
-    }, 
-    {
-      "id": 5, 
-      "name": "sample_folder_2", 
-      "parentID": 2
-    }
+    } 
   ]
 }
