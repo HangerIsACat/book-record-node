@@ -12,11 +12,6 @@ export class LocationsJSONloader {
       location => new Location(location.id, location.name, location.parentID));
   }
 
-  getLocationsTree() {
-    // TODO: Return all locations with null parent
-    return this.locations;
-  }
-
   getLocations() {
     return this.locations;
   }

@@ -9,10 +9,6 @@ export class LocationService {
     this.locLoader = new LocationsDBloader();
   }
 
-  getLocationsTree() {
-    return this.locLoader.getLocationsTree();
-  }
-
   getLocations() {
     return this.locLoader.getLocations();
   }

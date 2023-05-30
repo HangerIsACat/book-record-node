@@ -33,10 +33,6 @@ export class LocationsDBloader {
     locations.forEach(location => this.add(location));
   }
 
-  getLocationsTree() {
-    return "This will implement get locations tree";
-  }
-
   getLocations() {
     return this.db.prepare(`
       SELECT id, name, parentID FROM locations;
